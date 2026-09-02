@@ -1,0 +1,32 @@
+_target_: st_pages.RocPage
+cfg:
+  page:
+    title: "Base ROC page"
+    icon: ":eye:"
+    description: null
+
+  data_path: ???
+  image:
+    path_col: img_path
+    max_size: 640
+
+  sorting:
+    cols: ${cfg.scoring.cols}
+
+  scoring:
+    cols: ???
+    label_col: label
+    roc_title: 'ROC curve'
+
+  default_captions: null
+
+  format:
+    default: "Not chosen"
+    col_mapping: null
+    col_val_mapping: null
+
+  advanced:
+    images_in_page:
+      value: 16
+    images_in_row:
+      value: 2

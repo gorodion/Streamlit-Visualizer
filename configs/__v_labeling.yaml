@@ -1,0 +1,27 @@
+_target_: st_pages.LabelingVideoPage
+cfg:
+  page:
+    title: "Base video labeling page"
+    icon: ":eye:"
+    description: null
+
+  data_path: ???
+  image:
+    path_col: img_path
+  attributes: null
+  domain: null
+  sorting: null
+  default_captions: null
+
+  labeling:
+    classes: ???
+    save_path: null  # not used for multiple annotations
+
+  format:
+    default: "Not chosen"
+    col_mapping: null
+    col_val_mapping: null
+    
+  advanced:
+    random_seed:
+      value: 43

@@ -1,0 +1,32 @@
+_target_: st_pages.RankedVideoGalleryPage
+cfg:
+  page:
+    title: "Base ranked video gallery"
+    icon: ":rocket:"
+    description: null
+
+  data_path: ???
+  image:
+    path_col: "url"
+  attributes: null
+  sorting: null
+  default_captions: null
+
+  ranking:
+    ranking_path: ???
+    order: "most_relevant_first"
+    query_key: query
+    ranked_list_key: ranked_list
+
+  format:
+    default: "Not specified"
+    col_mapping: null
+    col_val_mapping: null
+
+  advanced:
+    random_seed:
+      value: 42
+    images_in_page:
+      value: 10
+    images_in_row:
+      value: 2

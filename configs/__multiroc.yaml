@@ -1,0 +1,15 @@
+_target_: st_pages.MultiRocPage
+cfg:
+  page:
+    title: "Base multi ROC page"
+    icon: ":eye:"
+    description: null
+
+  data_path: ???
+
+  roc:
+    label_col: label
+    score_cols: ???
+    group_cols: ???
+    n: 2
+    title: ROC curves

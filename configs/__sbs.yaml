@@ -1,0 +1,33 @@
+_target_: st_pages.SbSPageV2
+cfg:
+  page:
+    title: "Base SbS labeling"
+    icon: ":eye:"
+    description: null
+    as_columns: false
+
+  data_path: ???
+  image:
+    path_col: url
+    type: image
+    max_size: null
+
+  attributes:
+    cols: null
+
+  labeling:
+    project_name: ???
+    id_key: unique_id
+    question_key: user_query
+    model_A_key: model_A_answer
+    model_B_key: model_B_answer
+    annotators: ???
+    classes: ???
+    save_path: null
+
+  default_captions: null
+
+  format:
+    default: "Not chosen"
+    col_mapping: null
+    col_val_mapping: null

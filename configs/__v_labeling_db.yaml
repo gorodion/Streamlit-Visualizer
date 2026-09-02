@@ -1,0 +1,27 @@
+_target_: st_pages.MultiLabelingVideoPageDB
+cfg:
+  page:
+    title: "Base video labeling with DB"
+    icon: ":eye:"
+    description: null
+
+  data_path: ???
+  image:
+    path_col: url
+    max_size: null
+
+  attributes: null
+  sorting: null
+  default_captions: null
+
+  labeling:
+    project_name: ???
+    id_key: vid
+    annotators: ???
+    classes: ???
+    save_path: null
+
+  format:
+    default: "Not chosen"
+    col_mapping: null
+    col_val_mapping: null

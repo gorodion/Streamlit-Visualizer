@@ -1,0 +1,29 @@
+_target_: st_pages.LabelingPageV2
+cfg:
+  page:
+    title: "Base labeling page"
+    icon: ":eye:"
+    description: null
+
+  data_path: ???
+  image:
+    path_col: img_path  # used as an identifier
+    max_size: 640
+
+  labeling:
+    classes: ???
+    save_path: ???
+    
+  attributes: null
+  domain: null
+  sorting: null
+  default_captions: null
+          
+  format:
+    default: "Not chosen"
+    col_mapping: null
+    col_val_mapping: null
+
+  advanced:
+    random_seed:
+      value: 43

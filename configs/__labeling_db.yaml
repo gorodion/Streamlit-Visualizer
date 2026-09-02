@@ -1,0 +1,27 @@
+_target_: st_pages.MultiLabelingPageDB
+cfg:
+  page:
+    title: "Base labeling with DB"
+    icon: ":eye:"
+    description: null
+
+  data_path: ???
+  image:
+    path_col: img_path
+    max_size: null
+
+  attributes: null
+  sorting: null
+  default_captions: null
+
+  labeling:
+    project_name: ???
+    id_key: unique_id
+    annotators: ???
+    classes: ???
+    save_path: null
+
+  format:
+    default: "Not chosen"
+    col_mapping: null
+    col_val_mapping: null

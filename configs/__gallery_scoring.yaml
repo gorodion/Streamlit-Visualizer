@@ -1,0 +1,33 @@
+_target_: st_pages.GalleryScoringPage
+cfg:
+  page:
+    title: "Base scoring gallery"
+    icon: ":eye:"
+    description: null
+
+  data_path: ???
+  image:
+    path_col: img_path
+    max_size: 640
+
+  attributes: null
+  sorting: null
+  default_captions: null
+
+  scoring:
+    label_col: label
+    cols: ???
+    roc_title: "ROC curves"
+
+  format:
+    default: "Not chosen"
+    col_mapping: null
+    col_val_mapping: null
+
+  advanced:
+    random_seed:
+      value: 42
+    images_in_page:
+      value: 16
+    images_in_row:
+      value: 2

@@ -1,0 +1,34 @@
+_target_: st_pages.GalleryPageV2
+cfg:
+  page:
+    title: "Base gallery page"
+    icon: ":eye:"
+    description: null
+
+  data_path: ???
+  image:
+    path_col: img_path
+  attributes: null
+  domain: null
+  sorting: null
+  default_captions: null
+          
+  format:
+    default: "Not chosen"
+    col_mapping: null
+    col_val_mapping: null
+
+
+  advanced:
+    random_seed:
+      value: 42
+    images_in_page:
+      min_value: 1
+      max_value: 100
+      value: 50
+      step: 1
+    images_in_row:
+      min_value: 1
+      max_value: 5
+      value: 5
+      step: 1
