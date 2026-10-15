@@ -1,0 +1,6 @@
+_target_: st_pages.DefaultPage
+cfg:
+  page:
+    title: "Streamlit App"
+    icon: ":eye:"
+    description: "My first streamlit App 🟩"
